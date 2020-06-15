@@ -8,6 +8,7 @@ import { QuoteAppComponent } from './quote-app/quote-app.component';
 import { QuotedetailAppComponent } from './quotedetail-app/quotedetail-app.component';
 import { QuoteDetailAppComponent } from './quote-detail-app/quote-detail-app.component';
 import { CountInputAppComponent } from './count-input-app/count-input-app.component';
+import { QuoteFormAppComponent } from './quote-form-app/quote-form-app.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CountInputAppComponent } from './count-input-app/count-input-app.compon
     QuoteAppComponent,
     QuotedetailAppComponent,
     QuoteDetailAppComponent,
-    CountInputAppComponent
+    CountInputAppComponent,
+    QuoteFormAppComponent
   ],
   imports: [
     BrowserModule,
